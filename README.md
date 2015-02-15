@@ -27,7 +27,7 @@
                 <execution>
                     <id>get-git-dependencies</id>
                     <goals>
-                        <goal>install</goal>
+                        <goal>exec</goal>
                     </goals>
                 </execution>
             </executions>
