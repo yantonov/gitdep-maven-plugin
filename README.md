@@ -12,7 +12,7 @@
         <plugin>
             <groupId>com.yantonov</groupId>
             <artifactId>gitdep-maven-plugin</artifactId>
-            <version>1.0</version>
+            <version>0.0.1</version>
             <configuration>
                 <gitDependencies>
                     <gitDependency>
