@@ -4,6 +4,13 @@
 
 [1]: http://maven.apache.org
 
+### description
+
+Sometimes maven artifacts are not published to maven central (or other public repositories), but can be accessed using scm/vcs (git in particularly).  
+Thats why you need to install maven artifacts from remote git repositories and you want to do it with minimal efforts.
+
+This plugin iterates throught git dependency list, check if each maven artifact is already installed, if not - clone given branch from corresponding remote repository and execute mvn install for retrieved artifact.
+
 ### usage
 
 ```xml
