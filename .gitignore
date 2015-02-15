@@ -1,0 +1,6 @@
+# ide specific files
+/*.iml
+/.idea/
+
+# build dir
+/target/
