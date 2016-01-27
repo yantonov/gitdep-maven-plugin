@@ -17,7 +17,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-@Mojo(name = "install", defaultPhase = LifecyclePhase.GENERATE_SOURCES)
+@Mojo(name = "install", defaultPhase = LifecyclePhase.PROCESS_SOURCES)
 @Execute(goal = "clone")
 public class InstallMojo extends AbstractMojo {
 
