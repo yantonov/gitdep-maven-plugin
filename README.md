@@ -19,7 +19,7 @@ This plugin iterates throught git dependency list, check if each maven artifact 
         <plugin>
             <groupId>com.yantonov</groupId>
             <artifactId>gitdep-maven-plugin</artifactId>
-            <version>0.0.1</version>
+            <version>0.1.0</version>
             <configuration>
                 <gitDependencies>
                     <gitDependency>
