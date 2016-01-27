@@ -17,6 +17,13 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>Yury Antonov</name>
+            <email>yantonov@yandex.ru</email>
+        </developer>
+    </developers>
+
     <scm>
         <connection>scm:git:git@github.com:yantonov/gitdep-maven-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:yantonov/gitdep-maven-plugin.git</developerConnection>
