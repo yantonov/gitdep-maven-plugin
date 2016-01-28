@@ -9,6 +9,7 @@
 
     <name>gitdep-maven-plugin</name>
     <url>http://maven.apache.org</url>
+    <description>This project allows you to declaratively install maven artifacts from non public git repositories.</description>
 
     <distributionManagement>
         <snapshotRepository>
